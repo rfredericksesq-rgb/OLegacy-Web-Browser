@@ -1,0 +1,8 @@
+{
+  "name": "OLegacy Web Browser",
+  "description": "A fully functional web browser simulator with multi-tab browsing, search engine integration, bookmarks, browsing history, and a server-side proxy to load and interact with live websites directly.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <rect x="24" y="24" width="464" height="464" rx="96" fill="none" stroke="#334155" stroke-width="8" />
+  
+  <!-- Globe / Compass Browser Visual -->
+  <circle cx="256" cy="256" r="140" fill="none" stroke="url(#accent)" stroke-width="16" />
+  <ellipse cx="256" cy="256" rx="64" ry="140" fill="none" stroke="#38bdf8" stroke-width="12" opacity="0.8" />
+  <line x1="116" y1="256" x2="396" y2="256" stroke="#38bdf8" stroke-width="12" opacity="0.8" />
+  <line x1="138" y1="180" x2="374" y2="180" stroke="#38bdf8" stroke-width="8" opacity="0.5" />
+  <line x1="138" y1="332" x2="374" y2="332" stroke="#38bdf8" stroke-width="8" opacity="0.5" />
+  
+  <!-- Compass Needle -->
+  <polygon points="256,150 286,240 256,230 226,240" fill="#f43f5e" />
+  <polygon points="256,362 286,272 256,282 226,272" fill="#94a3b8" />
+  <circle cx="256" cy="256" r="14" fill="#ffffff" />
+</svg>
